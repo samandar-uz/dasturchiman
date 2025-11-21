@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "Python qachon yaratilgan?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 1, "answer_text": "1991-yilda", "correct": true},
+      {"id": 2, "answer_text": "2000-yilda", "correct": false},
+      {"id": 3, "answer_text": "1985-yilda", "correct": false},
+      {"id": 4, "answer_text": "1995-yilda", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "Python'ning yaratuvchisi kim?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 5, "answer_text": "Guido van Rossum", "correct": false},
+      {"id": 6, "answer_text": "James Gosling", "correct": false},
+      {"id": 7, "answer_text": "Brendan Eich", "correct": false},
+      {"id": 8, "answer_text": "Pythonius Creator", "correct": true}
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "Python'da ro'yxat (list) qanday yaratiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 9, "answer_text": "[] qavslar yordamida", "correct": true},
+      {"id": 10, "answer_text": "{} qavslar yordamida", "correct": false},
+      {"id": 11, "answer_text": "() qavslar yordamida", "correct": false},
+      {"id": 12, "answer_text": "<> qavslar yordamida", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "Python'da lug'at (dictionary) qanday yaratiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 13, "answer_text": "{} qavslar yordamida", "correct": false},
+      {"id": 14, "answer_text": "[] qavslar yordamida", "correct": false},
+      {"id": 15, "answer_text": "() qavslar yordamida", "correct": false},
+      {"id": 16, "answer_text": "dict() funksiyasi bilan", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "Python'da qanday izoh (comment) yoziladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 6,
+    "answers": [
+      {"id": 17, "answer_text": "# belgisi bilan", "correct": true},
+      {"id": 18, "answer_text": "// belgisi bilan", "correct": false},
+      {"id": 19, "answer_text": "/* */ belgilari bilan", "correct": false},
+      {"id": 20, "answer_text": "-- belgisi bilan", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "Python'da print() funksiyasi nima qiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 21, "answer_text": "Matnni ekranga chiqaradi", "correct": false},
+      {"id": 22, "answer_text": "Faylga yozadi", "correct": false},
+      {"id": 23, "answer_text": "Raqamni hisoblaydi", "correct": false},
+      {"id": 24, "answer_text": "Ma'lumotni konsolga yozadi", "correct": true}
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "Python'da for tsikli qanday ishlatiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 25, "answer_text": "for element in sequence:", "correct": true},
+      {"id": 26, "answer_text": "for (i=0; i<10; i++)", "correct": false},
+      {"id": 27, "answer_text": "for i in range(10)", "correct": false},
+      {"id": 28, "answer_text": "for each element in list", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "Python'da funksiya qanday e'lon qilinadi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 29, "answer_text": "def funksiya_nomi():", "correct": false},
+      {"id": 30, "answer_text": "function funksiya_nomi()", "correct": false},
+      {"id": 31, "answer_text": "func funksiya_nomi()", "correct": false},
+      {"id": 32, "answer_text": "def function_name():", "correct": true}
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "Python'da klass qanday e'lon qilinadi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 33, "answer_text": "class KlassNomi:", "correct": true},
+      {"id": 34, "answer_text": "class KlassNomi {", "correct": false},
+      {"id": 35, "answer_text": "KlassNomi class:", "correct": false},
+      {"id": 36, "answer_text": "def class KlassNomi:", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "Python'da qanday shart operatori ishlatiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 37, "answer_text": "if, elif, else", "correct": false},
+      {"id": 38, "answer_text": "if, else if, else", "correct": false},
+      {"id": 39, "answer_text": "if, else, case", "correct": false},
+      {"id": 40, "answer_text": "if, elif, else:", "correct": true}
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "Python'da try-except bloki nima uchun ishlatiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 41, "answer_text": "Xatoliklarni boshqarish uchun", "correct": true},
+      {"id": 42, "answer_text": "Kodni tezlashtirish uchun", "correct": false},
+      {"id": 43, "answer_text": "Ma'lumotlarni saqlash uchun", "correct": false},
+      {"id": 44, "answer_text": "Fayllarni ochish uchun", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "Python'da import nima?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 45, "answer_text": "Kutubxonani dasturga ulash", "correct": false},
+      {"id": 46, "answer_text": "Ma'lumotlarni eksport qilish", "correct": false},
+      {"id": 47, "answer_text": "Faylni ochish", "correct": false},
+      {"id": 48, "answer_text": "Modulni import qilish", "correct": true}
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "Python'da len() funksiyasi nima qiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 49, "answer_text": "Elementlar sonini qaytaradi", "correct": false},
+      {"id": 50, "answer_text": "Matn uzunligini o'lchaydi", "correct": false},
+      {"id": 51, "answer_text": "Raqamni yaxlitlaydi", "correct": false},
+      {"id": 52, "answer_text": "Obyekt uzunligini qaytaradi", "correct": true}
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "Python'da range() funksiyasi nima qiladi?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 53, "answer_text": "Sonlar ketma-ketligini yaratadi", "correct": true},
+      {"id": 54, "answer_text": "Matnni kesadi", "correct": false},
+      {"id": 55, "answer_text": "Raqamlar oralig'ini tekshiradi", "correct": false},
+      {"id": 56, "answer_text": "Massivni saralaydi", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "Python'da self nima?",
+    "categoryId": 4,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 57, "answer_text": "Klassning joriy instansiyasiga murojaat", "correct": false},
+      {"id": 58, "answer_text": "Super klassga murojaat", "correct": false},
+      {"id": 59, "answer_text": "Statik metod", "correct": false},
+      {"id": 60, "answer_text": "Instansiya parametri", "correct": true}
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "Python'da __init__ metodi nima?",
+    "categoryId": 4,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 61, "answer_text": "Konstruktor metodi", "correct": true},
+      {"id": 62, "answer_text": "Destruktor metodi", "correct": false},
+      {"id": 63, "answer_text": "Asosiy metod", "correct": false},
+      {"id": 64, "answer_text": "Statik metod", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "Python'da lambda nima?",
+    "categoryId": 4,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 65, "answer_text": "Nomsiz funksiya", "correct": false},
+      {"id": 66, "answer_text": "Ma'lumotlar turi", "correct": false},
+      {"id": 67, "answer_text": "Tsikl turi", "correct": false},
+      {"id": 68, "answer_text": "Anonim funksiya", "correct": true}
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "Python'da list comprehension nima?",
+    "categoryId": 4,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 69, "answer_text": "Ro'yxatni qisqa usulda yaratish", "correct": true},
+      {"id": 70, "answer_text": "Ro'yxatni saralash", "correct": false},
+      {"id": 71, "answer_text": "Ro'yxatni filtrlash", "correct": false},
+      {"id": 72, "answer_text": "Ro'yxatni chop etish", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "Python'da PIP nima?",
+    "categoryId": 4,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 73, "answer_text": "Paketlar menejeri", "correct": false},
+      {"id": 74, "answer_text": "Dasturiy interfeys", "correct": false},
+      {"id": 75, "answer_text": "Python interpretatori", "correct": false},
+      {"id": 76, "answer_text": "Python paket menejeri", "correct": true}
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "Python'da virtual environment nima?",
+    "categoryId": 4,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 77, "answer_text": "Loyiha uchun izolyatsiya qilingan muhit", "correct": true},
+      {"id": 78, "answer_text": "Virtual mashina", "correct": false},
+      {"id": 79, "answer_text": "Grafik interfeys", "correct": false},
+      {"id": 80, "answer_text": "Tarmoq muhiti", "correct": false}
+    ]
+  }
+]

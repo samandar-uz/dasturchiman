@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "Spring Framework qaysi platforma uchun mo'ljallangan?",
+    "categoryId": 7,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 1, "answer_text": "Java", "correct": true},
+      {"id": 2, "answer_text": "JavaScript", "correct": false},
+      {"id": 3, "answer_text": "Python", "correct": false},
+      {"id": 4, "answer_text": "C#", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "Spring'ning asosiy moduli qaysi?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 5, "answer_text": "Spring Core", "correct": false},
+      {"id": 6, "answer_text": "Spring MVC", "correct": false},
+      {"id": 7, "answer_text": "Spring Boot", "correct": false},
+      {"id": 8, "answer_text": "Spring Framework Core", "correct": true}
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "Spring'da Dependency Injection (DI) nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 9, "answer_text": "Obyektlarni boshqarish", "correct": false},
+      {"id": 10, "answer_text": "Konteyner tomonidan bog'lash", "correct": true},
+      {"id": 11, "answer_text": "Ma'lumotlarni inject qilish", "correct": false},
+      {"id": 12, "answer_text": "Code injection", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "Spring'da IOC (Inversion of Control) nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 13, "answer_text": "Kontrolni teskari aylantirish", "correct": false},
+      {"id": 14, "answer_text": "Dastur boshqaruvi", "correct": false},
+      {"id": 15, "answer_text": "Konteyner boshqaruvi", "correct": false},
+      {"id": 16, "answer_text": "Control flow inversion", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "Spring'da bean nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 17, "answer_text": "Spring tomonidan boshqariladigan obyekt", "correct": true},
+      {"id": 18, "answer_text": "Java klassi", "correct": false},
+      {"id": 19, "answer_text": "Database object", "correct": false},
+      {"id": 20, "answer_text": "Service komponenti", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "Spring'da @Autowired annotatsiyasi nima uchun ishlatiladi?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 21, "answer_text": "Avtomatik bog'lash", "correct": false},
+      {"id": 22, "answer_text": "Dependency injection", "correct": false},
+      {"id": 23, "answer_text": "Bean connection", "correct": false},
+      {"id": 24, "answer_text": "Automatic dependency injection", "correct": true}
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "Spring'da @Component annotatsiyasi nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 25, "answer_text": "Bean ni belgilash", "correct": true},
+      {"id": 26, "answer_text": "Komponent yaratish", "correct": false},
+      {"id": 27, "answer_text": "Service annotatsiyasi", "correct": false},
+      {"id": 28, "answer_text": "Repository belgisi", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "Spring MVC da Model-View-Controller qanday ishlaydi?",
+    "categoryId": 7,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 29, "answer_text": "Request -> Controller -> Model -> View", "correct": false},
+      {"id": 30, "answer_text": "Controller -> Model -> View", "correct": false},
+      {"id": 31, "answer_text": "Model -> View -> Controller", "correct": false},
+      {"id": 32, "answer_text": "Request handling architecture", "correct": true}
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "Spring Boot ning asosiy maqsadi nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 33, "answer_text": "Konfiguratsiyani soddalashtirish", "correct": true},
+      {"id": 34, "answer_text": "Tezroq ishlash", "correct": false},
+      {"id": 35, "answer_text": "Yangi funksiyalar qo'shish", "correct": false},
+      {"id": 36, "answer_text": "Security ni oshirish", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "Spring'da @RestController nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 37, "answer_text": "REST API controller", "correct": false},
+      {"id": 38, "answer_text": "Web service controller", "correct": false},
+      {"id": 39, "answer_text": "JSON response controller", "correct": false},
+      {"id": 40, "answer_text": "RESTful web service", "correct": true}
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "Spring'da AOP (Aspect-Oriented Programming) nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 41, "answer_text": "Cross-cutting concern", "correct": false},
+      {"id": 42, "answer_text": "Modullarni ajratish", "correct": false},
+      {"id": 43, "answer_text": "Code separation", "correct": false},
+      {"id": 44, "answer_text": "Cross-cutting concerns modularization", "correct": true}
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "Spring'da transaction boshqarish qanday amalga oshiriladi?",
+    "categoryId": 7,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 45, "answer_text": "@Transactional annotatsiyasi", "correct": true},
+      {"id": 46, "answer_text": "TransactionManager", "correct": false},
+      {"id": 47, "answer_text": "PlatformTransactionManager", "correct": false},
+      {"id": 48, "answer_text": "DataSourceTransactionManager", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "Spring Security nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 49, "answer_text": "Authentication va authorization", "correct": false},
+      {"id": 50, "answer_text": "Security framework", "correct": false},
+      {"id": 51, "answer_text": "Xavfsizlik kutubxonasi", "correct": false},
+      {"id": 52, "answer_text": "Security and access control", "correct": true}
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "Spring'da JPA (Java Persistence API) qanday ishlatiladi?",
+    "categoryId": 7,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 53, "answer_text": "Database access", "correct": false},
+      {"id": 54, "answer_text": "Object-relational mapping", "correct": false},
+      {"id": 55, "answer_text": "Data persistence", "correct": false},
+      {"id": 56, "answer_text": "ORM implementation", "correct": true}
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "Spring'da @Service annotatsiyasi nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 57, "answer_text": "Business logic layer", "correct": true},
+      {"id": 58, "answer_text": "Service component", "correct": false},
+      {"id": 59, "answer_text": "Business service", "correct": false},
+      {"id": 60, "answer_text": "Service bean", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "Spring'da @Repository annotatsiyasi nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 61, "answer_text": "Data access layer", "correct": false},
+      {"id": 62, "answer_text": "Database operations", "correct": false},
+      {"id": 63, "answer_text": "Persistence layer", "correct": false},
+      {"id": 64, "answer_text": "Data access exception translation", "correct": true}
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "Spring'da profile nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 65, "answer_text": "Environment configuration", "correct": true},
+      {"id": 66, "answer_text": "User profile", "correct": false},
+      {"id": 67, "answer_text": "Application profile", "correct": false},
+      {"id": 68, "answer_text": "System profile", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "Spring'da testing qanday amalga oshiriladi?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 69, "answer_text": "Spring TestContext Framework", "correct": false},
+      {"id": 70, "answer_text": "JUnit integration", "correct": false},
+      {"id": 71, "answer_text": "Mock testing", "correct": false},
+      {"id": 72, "answer_text": "@SpringBootTest", "correct": true}
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "Spring'da WebClient nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 73, "answer_text": "Reactive web client", "correct": true},
+      {"id": 74, "answer_text": "HTTP client", "correct": false},
+      {"id": 75, "answer_text": "REST client", "correct": false},
+      {"id": 76, "answer_text": "Web service client", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "Spring'da actuator nima?",
+    "categoryId": 7,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 77, "answer_text": "Application monitoring", "correct": false},
+      {"id": 78, "answer_text": "Production ready features", "correct": false},
+      {"id": 79, "answer_text": "Health checks", "correct": false},
+      {"id": 80, "answer_text": "Production monitoring tools", "correct": true}
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "PHP qaysi so'zlar qisqartmasidan olingan?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 1, "answer_text": "PHP: Hypertext Preprocessor", "correct": true},
+      {"id": 2, "answer_text": "Personal Home Page", "correct": false},
+      {"id": 3, "answer_text": "Programming Hypertext Processor", "correct": false},
+      {"id": 4, "answer_text": "Preprocessed Hypertext Pages", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "PHP fayllari qanday kengaytmaga ega?",
+    "categoryId": 5,
+    "time_limit_seconds": 6,
+    "answers": [
+      {"id": 5, "answer_text": ".php", "correct": false},
+      {"id": 6, "answer_text": ".html", "correct": false},
+      {"id": 7, "answer_text": ".js", "correct": false},
+      {"id": 8, "answer_text": ".ph", "correct": true}
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "PHP kodini qaysi teglar orasida yozamiz?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 9, "answer_text": "<?php ... ?>", "correct": true},
+      {"id": 10, "answer_text": "<php> ... </php>", "correct": false},
+      {"id": 11, "answer_text": "<script> ... </script>", "correct": false},
+      {"id": 12, "answer_text": "<? ... ?>", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "PHP'da o'zgaruvchi qanday e'lon qilinadi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 13, "answer_text": "$nom", "correct": false},
+      {"id": 14, "answer_text": "var nom", "correct": false},
+      {"id": 15, "answer_text": "let nom", "correct": false},
+      {"id": 16, "answer_text": "$variable_name", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "PHP'da matnni ekranga chiqarish uchun qaysi funksiya ishlatiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 17, "answer_text": "echo", "correct": true},
+      {"id": 18, "answer_text": "print()", "correct": false},
+      {"id": 19, "answer_text": "console.log()", "correct": false},
+      {"id": 20, "answer_text": "printf()", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "PHP'da massiv qanday yaratiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 21, "answer_text": "array()", "correct": false},
+      {"id": 22, "answer_text": "[]", "correct": false},
+      {"id": 23, "answer_text": "arr()", "correct": false},
+      {"id": 24, "answer_text": "$arr = array()", "correct": true}
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "PHP'da qanday shart operatori ishlatiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 25, "answer_text": "if, else, elseif", "correct": true},
+      {"id": 26, "answer_text": "if, else, elif", "correct": false},
+      {"id": 27, "answer_text": "when, then, else", "correct": false},
+      {"id": 28, "answer_text": "case, when, else", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "PHP'da for tsikli qanday ishlatiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 29, "answer_text": "for ($i = 0; $i < 10; $i++)", "correct": false},
+      {"id": 30, "answer_text": "for (i=0; i<10; i++)", "correct": false},
+      {"id": 31, "answer_text": "for i in range(10)", "correct": false},
+      {"id": 32, "answer_text": "for ($i=0; $i<10; $i++) {}", "correct": true}
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "PHP'da funksiya qanday e'lon qilinadi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 33, "answer_text": "function nom() {}", "correct": true},
+      {"id": 34, "answer_text": "def nom() {}", "correct": false},
+      {"id": 35, "answer_text": "func nom() {}", "correct": false},
+      {"id": 36, "answer_text": "function name() {}", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "PHP'da MySQL ga ulanish uchun qaysi funksiya ishlatiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 37, "answer_text": "mysqli_connect()", "correct": false},
+      {"id": 38, "answer_text": "mysql_connect()", "correct": false},
+      {"id": 39, "answer_text": "connect_mysql()", "correct": false},
+      {"id": 40, "answer_text": "mysqli_connect", "correct": true}
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "PHP'da sessiyani boshlash uchun qaysi funksiya ishlatiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 41, "answer_text": "session_start()", "correct": true},
+      {"id": 42, "answer_text": "start_session()", "correct": false},
+      {"id": 43, "answer_text": "session_begin()", "correct": false},
+      {"id": 44, "answer_text": "begin_session()", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "PHP'da POST so'rovini qanday o'qiymiz?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 45, "answer_text": "$_POST", "correct": false},
+      {"id": 46, "answer_text": "$POST", "correct": false},
+      {"id": 47, "answer_text": "_POST", "correct": false},
+      {"id": 48, "answer_text": "$_POST['name']", "correct": true}
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "PHP'da faylni ochish uchun qaysi funksiya ishlatiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 49, "answer_text": "fopen()", "correct": true},
+      {"id": 50, "answer_text": "open_file()", "correct": false},
+      {"id": 51, "answer_text": "file_open()", "correct": false},
+      {"id": 52, "answer_text": "open()", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "PHP'da klassi qanday e'lon qilinadi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 53, "answer_text": "class Nom {}", "correct": false},
+      {"id": 54, "answer_text": "class ClassName {}", "correct": true},
+      {"id": 55, "answer_text": "ClassName class {}", "correct": false},
+      {"id": 56, "answer_text": "object ClassName {}", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "PHP'da konstruktor qanday e'lon qilinadi?",
+    "categoryId": 5,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 57, "answer_text": "__construct()", "correct": true},
+      {"id": 58, "answer_text": "constructor()", "correct": false},
+      {"id": 59, "answer_text": "__init__()", "correct": false},
+      {"id": 60, "answer_text": "init()", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "PHP'da meros olish qanday amalga oshiriladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 61, "answer_text": "extends", "correct": false},
+      {"id": 62, "answer_text": "inherits", "correct": false},
+      {"id": 63, "answer_text": "implements", "correct": false},
+      {"id": 64, "answer_text": "class Child extends Parent", "correct": true}
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "PHP'da interface qanday e'lon qilinadi?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 65, "answer_text": "interface Nom {}", "correct": true},
+      {"id": 66, "answer_text": "interface InterfaceName {}", "correct": false},
+      {"id": 67, "answer_text": "Interface Nom {}", "correct": false},
+      {"id": 68, "answer_text": "interface name {}", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "PHP'da xatolarni boshqarish uchun qaysi blok ishlatiladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 69, "answer_text": "try-catch", "correct": true},
+      {"id": 70, "answer_text": "try-except", "correct": false},
+      {"id": 71, "answer_text": "catch-try", "correct": false},
+      {"id": 72, "answer_text": "error-handle", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "PHP'da qaysi superglobal o'zgaruvchi mavjud?",
+    "categoryId": 5,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 73, "answer_text": "$_GET", "correct": false},
+      {"id": 74, "answer_text": "$_POST", "correct": false},
+      {"id": 75, "answer_text": "$_SESSION", "correct": false},
+      {"id": 76, "answer_text": "$_SERVER", "correct": true}
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "PHP'da qanday izoh (comment) yoziladi?",
+    "categoryId": 5,
+    "time_limit_seconds": 6,
+    "answers": [
+      {"id": 77, "answer_text": "// bir qatorli", "correct": false},
+      {"id": 78, "answer_text": "# bir qatorli", "correct": false},
+      {"id": 79, "answer_text": "/* ko'p qatorli */", "correct": false},
+      {"id": 80, "answer_text": "// va /* */", "correct": true}
+    ]
+  }
+]

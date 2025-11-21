@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "Flutter qaysi kompaniya tomonidan ishlab chiqilgan?",
+    "categoryId": 2,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 1, "answer_text": "Google", "correct": true },
+      { "id": 2, "answer_text": "Facebook", "correct": false },
+      { "id": 3, "answer_text": "Microsoft", "correct": false },
+      { "id": 4, "answer_text": "Apple", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "Flutter'da asosiy dasturlash tili qaysi?",
+    "categoryId": 2,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 5, "answer_text": "Dart", "correct": false },
+      { "id": 6, "answer_text": "JavaScript", "correct": true },
+      { "id": 7, "answer_text": "Java", "correct": false },
+      { "id": 8, "answer_text": "Python", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "Flutter'da widget nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 9, "answer_text": "UI komponenti", "correct": false },
+      { "id": 10, "answer_text": "Ma'lumotlar bazasi", "correct": true },
+      { "id": 11, "answer_text": "Server qismi", "correct": false },
+      { "id": 12, "answer_text": "Plugin", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "Flutter'da StatelessWidget va StatefulWidget o'rtasidagi farq?",
+    "categoryId": 2,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 13, "answer_text": "StatelessWidget o'zgarmas, StatefulWidget o'zgaruvchan", "correct": false },
+      { "id": 14, "answer_text": "StatefulWidget o'zgarmas, StatelessWidget o'zgaruvchan", "correct": false },
+      { "id": 15, "answer_text": "Farqi yo'q", "correct": true },
+      { "id": 16, "answer_text": "StatelessWidget faqat matn uchun", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "Flutter'da hot reload nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 17, "answer_text": "Kod o'zgarishlarini dastur ishlaganda ko'rish", "correct": false },
+      { "id": 18, "answer_text": "Dasturni qayta ishga tushirish", "correct": false },
+      { "id": 19, "answer_text": "Xotirani tozalash", "correct": false },
+      { "id": 20, "answer_text": "Pluginlarni yangilash", "correct": true }
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "Flutter'da MaterialApp widgeti nima uchun kerak?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 21, "answer_text": "Material Design ilova asosini yaratish", "correct": true },
+      { "id": 22, "answer_text": "Rasm qo'shish", "correct": false },
+      { "id": 23, "answer_text": "Ma'lumotlarni saqlash", "correct": false },
+      { "id": 24, "answer_text": "Internetga ulanish", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "Flutter'da Scaffold widgeti nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 25, "answer_text": "Asosiy ekran strukturasi", "correct": false },
+      { "id": 26, "answer_text": "Rasm ko'rsatish", "correct": true },
+      { "id": 27, "answer_text": "Matn ko'rsatish", "correct": false },
+      { "id": 28, "answer_text": "Tugma yaratish", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "Flutter'da pubspec.yaml fayli nima uchun kerak?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 29, "answer_text": "Loyiha konfiguratsiyasi va dependensiyalarni boshqarish", "correct": false },
+      { "id": 30, "answer_text": "Kod yozish", "correct": false },
+      { "id": 31, "answer_text": "Rasmlarni saqlash", "correct": true },
+      { "id": 32, "answer_text": "Ilovani ishga tushirish", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "Flutter'da Navigator nima vazifani bajaradi?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 33, "answer_text": "Ekranlar o'rtasida navigatsiya", "correct": false },
+      { "id": 34, "answer_text": "Internet navigatsiya", "correct": false },
+      { "id": 35, "answer_text": "Fayl tizimida navigatsiya", "correct": false },
+      { "id": 36, "answer_text": "GPS navigatsiya", "correct": true }
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "Flutter'da setState() metodi nima uchun ishlatiladi?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 37, "answer_text": "State o'zgarganda UI ni yangilash", "correct": false },
+      { "id": 38, "answer_text": "Dasturni to'xtatish", "correct": true },
+      { "id": 39, "answer_text": "Xotirani tozalash", "correct": false },
+      { "id": 40, "answer_text": "Serverga so'rov yuborish", "correct": false }
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "Flutter'da ListView widgeti nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 41, "answer_text": "Ro'yxat ko'rsatish widgeti", "correct": true },
+      { "id": 42, "answer_text": "Matn widgeti", "correct": false },
+      { "id": 43, "answer_text": "Rasm widgeti", "correct": false },
+      { "id": 44, "answer_text": "Tugma widgeti", "correct": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "Flutter'da Future nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 45, "answer_text": "Asinxron operatsiya natijasi", "correct": false },
+      { "id": 46, "answer_text": "Kelajakdagi sana", "correct": false },
+      { "id": 47, "answer_text": "Ma'lumotlar bazasi", "correct": true },
+      { "id": 48, "answer_text": "Widget turi", "correct": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "Flutter'da async va await nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 49, "answer_text": "Asinxron kod yozish uchun", "correct": false },
+      { "id": 50, "answer_text": "Kodni tezlashtirish", "correct": false },
+      { "id": 51, "answer_text": "Xotirani tejash", "correct": true },
+      { "id": 52, "answer_text": "Rasm yuklash", "correct": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "Flutter'da Provider nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 53, "answer_text": "State management kutubxonasi", "correct": false },
+      { "id": 54, "answer_text": "Rasm provideri", "correct": true },
+      { "id": 55, "answer_text": "Internet provideri", "correct": false },
+      { "id": 56, "answer_text": "GPS provideri", "correct": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "Flutter'da GestureDetector nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 57, "answer_text": "Foydalanuvchi interaktsiyasini qabul qilish", "correct": false },
+      { "id": 58, "answer_text": "Rasmni aniqlash", "correct": false },
+      { "id": 59, "answer_text": "Ovozni aniqlash", "correct": false },
+      { "id": 60, "answer_text": "Matnni aniqlash", "correct": true }
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "Flutter'da MediaQuery nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 61, "answer_text": "Qurilma ma'lumotlarini olish", "correct": true },
+      { "id": 62, "answer_text": "Media fayllarni so'rash", "correct": false },
+      { "id": 63, "answer_text": "Internet so'rovlari", "correct": false },
+      { "id": 64, "answer_text": "Ma'lumotlar bazasi so'rovi", "correct": false }
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "Flutter'da AnimationController nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 65, "answer_text": "Animatsiyani boshqarish", "correct": false },
+      { "id": 66, "answer_text": "Video boshqarish", "correct": false },
+      { "id": 67, "answer_text": "Ovoz boshqarish", "correct": true },
+      { "id": 68, "answer_text": "Rasm boshqarish", "correct": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "Flutter'da const qachon ishlatiladi?",
+    "categoryId": 2,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 69, "answer_text": "O'zgarmas widgetlar yaratishda", "correct": false },
+      { "id": 70, "answer_text": "O'zgaruvchan widgetlar yaratishda", "correct": true },
+      { "id": 71, "answer_text": "Faqat ranglar uchun", "correct": false },
+      { "id": 72, "answer_text": "Faqat matnlar uchun", "correct": false }
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "Flutter'da InheritedWidget nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 73, "answer_text": "Ma'lumotlarni widgetlar orasida uzatish", "correct": false },
+      { "id": 74, "answer_text": "Widgetlarni meros qilib olish", "correct": true },
+      { "id": 75, "answer_text": "Widgetlarni yashirish", "correct": false },
+      { "id": 76, "answer_text": "Widgetlarni o'chirish", "correct": false }
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "Flutter'da Platform Channel nima?",
+    "categoryId": 2,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 77, "answer_text": "Dart va native kod o'rtasida kommunikatsiya", "correct": false },
+      { "id": 78, "answer_text": "Platformalar o'rtasida kanal", "correct": false },
+      { "id": 79, "answer_text": "Internet kanali", "correct": false },
+      { "id": 80, "answer_text": "TV kanali", "correct": true }
+    ]
+  }
+]

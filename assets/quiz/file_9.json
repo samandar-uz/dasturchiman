@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "Vue.js qaysi dasturchi tomonidan yaratilgan?",
+    "categoryId": 9,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 1, "answer_text": "Evan You", "correct": true},
+      {"id": 2, "answer_text": "Jordan Walke", "correct": false},
+      {"id": 3, "answer_text": "Miško Hevery", "correct": false},
+      {"id": 4, "answer_text": "Ryan Dahl", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "Vue.js ning asosiy xususiyati qaysi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 5, "answer_text": "Reaktivlik", "correct": false},
+      {"id": 6, "answer_text": "Komponentlar", "correct": false},
+      {"id": 7, "answer_text": "Progressiv framework", "correct": true},
+      {"id": 8, "answer_text": "Virtual DOM", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "Vue.js da komponent qanday yaratiladi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 9, "answer_text": "Vue.component()", "correct": false},
+      {"id": 10, "answer_text": "new Vue({})", "correct": false},
+      {"id": 11, "answer_text": "const app = createApp({})", "correct": false},
+      {"id": 12, "answer_text": "Vue.createApp({})", "correct": true}
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "Vue.js da data() funksiyasi nima qaytaradi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 13, "answer_text": "Obyekt", "correct": false},
+      {"id": 14, "answer_text": "Reaktiv ma'lumotlar", "correct": true},
+      {"id": 15, "answer_text": "State", "correct": false},
+      {"id": 16, "answer_text": "Props", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "Vue.js da computed property nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 17, "answer_text": "Hisoblangan qiymat", "correct": false},
+      {"id": 18, "answer_text": "Cached property", "correct": true},
+      {"id": 19, "answer_text": "Dynamic value", "correct": false},
+      {"id": 20, "answer_text": "Method result", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "Vue.js da v-bind direktivasi nima uchun ishlatiladi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 21, "answer_text": "Attribute binding", "correct": true},
+      {"id": 22, "answer_text": "Event binding", "correct": false},
+      {"id": 23, "answer_text": "Two-way binding", "correct": false},
+      {"id": 24, "answer_text": "Class binding", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "Vue.js da v-model direktivasi nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 25, "answer_text": "Two-way data binding", "correct": true},
+      {"id": 26, "answer_text": "Model binding", "correct": false},
+      {"id": 27, "answer_text": "Form binding", "correct": false},
+      {"id": 28, "answer_text": "Value binding", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "Vue.js da v-for direktivasi nima uchun ishlatiladi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 29, "answer_text": "Loop through array", "correct": false},
+      {"id": 30, "answer_text": "Render list", "correct": false},
+      {"id": 31, "answer_text": "Iterate over data", "correct": false},
+      {"id": 32, "answer_text": "List rendering", "correct": true}
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "Vue.js da v-if va v-show o'rtasidagi farq?",
+    "categoryId": 9,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 33, "answer_text": "v-if remove, v-show hide", "correct": true},
+      {"id": 34, "answer_text": "v-if hide, v-show remove", "correct": false},
+      {"id": 35, "answer_text": "Farqi yo'q", "correct": false},
+      {"id": 36, "answer_text": "v-if conditional, v-show toggle", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "Vue.js da methods va computed o'rtasidagi farq?",
+    "categoryId": 9,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 37, "answer_text": "Computed cached, methods not", "correct": false},
+      {"id": 38, "answer_text": "Methods reactive, computed not", "correct": false},
+      {"id": 39, "answer_text": "Computed reactive cache", "correct": true},
+      {"id": 40, "answer_text": "Methods for events, computed for data", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "Vue.js da watcher nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 41, "answer_text": "Data change listener", "correct": false},
+      {"id": 42, "answer_text": "Reactive watcher", "correct": false},
+      {"id": 43, "answer_text": "Property observer", "correct": false},
+      {"id": 44, "answer_text": "Reactive property watcher", "correct": true}
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "Vue.js da lifecycle hook lar qaysilar?",
+    "categoryId": 9,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 45, "answer_text": "created, mounted, updated", "correct": false},
+      {"id": 46, "answer_text": "onCreate, onMount, onUpdate", "correct": false},
+      {"id": 47, "answer_text": "init, render, destroy", "correct": false},
+      {"id": 48, "answer_text": "beforeCreate, created, mounted", "correct": true}
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "Vue.js da props qanday ishlatiladi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 49, "answer_text": "Parent to child data", "correct": true},
+      {"id": 50, "answer_text": "Child to parent data", "correct": false},
+      {"id": 51, "answer_text": "Component communication", "correct": false},
+      {"id": 52, "answer_text": "Global data sharing", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "Vue.js da emit nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 53, "answer_text": "Child to parent communication", "correct": false},
+      {"id": 54, "answer_text": "Event emitting", "correct": false},
+      {"id": 55, "answer_text": "Custom events", "correct": false},
+      {"id": 56, "answer_text": "Child component events", "correct": true}
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "Vue.js da Vuex nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 57, "answer_text": "State management", "correct": false},
+      {"id": 58, "answer_text": "Centralized store", "correct": false},
+      {"id": 59, "answer_text": "Vue state management", "correct": false},
+      {"id": 60, "answer_text": "State management pattern", "correct": true}
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "Vue.js da router qanday o'rnatiladi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 61, "answer_text": "Vue Router", "correct": true},
+      {"id": 62, "answer_text": "vue-router", "correct": false},
+      {"id": 63, "answer_text": "@vue/router", "correct": false},
+      {"id": 64, "answer_text": "vue-route", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "Vue.js da slot nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 65, "answer_text": "Content distribution", "correct": true},
+      {"id": 66, "answer_text": "Template slot", "correct": false},
+      {"id": 67, "answer_text": "Component slot", "correct": false},
+      {"id": 68, "answer_text": "Dynamic content", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "Vue.js da mixin nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 69, "answer_text": "Code reuse", "correct": false},
+      {"id": 70, "answer_text": "Function sharing", "correct": false},
+      {"id": 71, "answer_text": "Component functionality reuse", "correct": true},
+      {"id": 72, "answer_text": "Method mixing", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "Vue.js da directive qanday yaratiladi?",
+    "categoryId": 9,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 73, "answer_text": "Vue.directive()", "correct": true},
+      {"id": 74, "answer_text": "app.directive()", "correct": false},
+      {"id": 75, "answer_text": "createDirective()", "correct": false},
+      {"id": 76, "answer_text": "new Directive()", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "Vue.js da Composition API nima?",
+    "categoryId": 9,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 77, "answer_text": "Function-based API", "correct": false},
+      {"id": 78, "answer_text": "Logic composition", "correct": false},
+      {"id": 79, "answer_text": "Reactive logic reuse", "correct": false},
+      {"id": 80, "answer_text": "Function composition API", "correct": true}
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "JavaScript qachon yaratilgan?",
+    "categoryId": 10,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 1, "answer_text": "1995-yilda", "correct": true},
+      {"id": 2, "answer_text": "2000-yilda", "correct": false},
+      {"id": 3, "answer_text": "1990-yilda", "correct": false},
+      {"id": 4, "answer_text": "1985-yilda", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "JavaScript ning yaratuvchisi kim?",
+    "categoryId": 10,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 5, "answer_text": "Brendan Eich", "correct": false},
+      {"id": 6, "answer_text": "James Gosling", "correct": false},
+      {"id": 7, "answer_text": "Larry Wall", "correct": false},
+      {"id": 8, "answer_text": "Brendan Eich (Netscape)", "correct": true}
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "JavaScript da o'zgaruvchi qanday e'lon qilinadi?",
+    "categoryId": 10,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 9, "answer_text": "var, let, const", "correct": true},
+      {"id": 10, "answer_text": "variable", "correct": false},
+      {"id": 11, "answer_text": "int", "correct": false},
+      {"id": 12, "answer_text": "string", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "JavaScript da funksiya qanday e'lon qilinadi?",
+    "categoryId": 10,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 13, "answer_text": "function myFunc() {}", "correct": false},
+      {"id": 14, "answer_text": "function functionName() {}", "correct": false},
+      {"id": 15, "answer_text": "const myFunc = () => {}", "correct": false},
+      {"id": 16, "answer_text": "function name() {}", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "JavaScript da massiv qanday yaratiladi?",
+    "categoryId": 10,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 17, "answer_text": "[]", "correct": false},
+      {"id": 18, "answer_text": "new Array()", "correct": false},
+      {"id": 19, "answer_text": "array()", "correct": false},
+      {"id": 20, "answer_text": "const arr = []", "correct": true}
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "JavaScript da obyekt qanday yaratiladi?",
+    "categoryId": 10,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 21, "answer_text": "{}", "correct": false},
+      {"id": 22, "answer_text": "new Object()", "correct": false},
+      {"id": 23, "answer_text": "object()", "correct": false},
+      {"id": 24, "answer_text": "const obj = {}", "correct": true}
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "JavaScript da == va === o'rtasidagi farq?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 25, "answer_text": "== value, === value and type", "correct": true},
+      {"id": 26, "answer_text": "== type, === value", "correct": false},
+      {"id": 27, "answer_text": "Farqi yo'q", "correct": false},
+      {"id": 28, "answer_text": "== strict, === loose", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "JavaScript da closure nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 29, "answer_text": "Function with preserved scope", "correct": true},
+      {"id": 30, "answer_text": "Closed function", "correct": false},
+      {"id": 31, "answer_text": "Private function", "correct": false},
+      {"id": 32, "answer_text": "Inner function", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "JavaScript da promise nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 33, "answer_text": "Asynchronous operation", "correct": false},
+      {"id": 34, "answer_text": "Future value", "correct": false},
+      {"id": 35, "answer_text": "Async result", "correct": false},
+      {"id": 36, "answer_text": "Asynchronous operation result", "correct": true}
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "JavaScript da async/await qanday ishlatiladi?",
+    "categoryId": 10,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 37, "answer_text": "async function myFunc() { await ... }", "correct": true},
+      {"id": 38, "answer_text": "await async function()", "correct": false},
+      {"id": 39, "answer_text": "function async myFunc()", "correct": false},
+      {"id": 40, "answer_text": "async await function()", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "JavaScript da DOM nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 41, "answer_text": "Document Object Model", "correct": true},
+      {"id": 42, "answer_text": "Data Object Model", "correct": false},
+      {"id": 43, "answer_text": "Document Order Model", "correct": false},
+      {"id": 44, "answer_text": "Digital Object Model", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "JavaScript da event listener qanday qo'shiladi?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 45, "answer_text": "addEventListener()", "correct": false},
+      {"id": 46, "answer_text": "element.addEventListener()", "correct": true},
+      {"id": 47, "answer_text": "on('click')", "correct": false},
+      {"id": 48, "answer_text": "listenEvent()", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "JavaScript da JSON nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 49, "answer_text": "JavaScript Object Notation", "correct": true},
+      {"id": 50, "answer_text": "Java Standard Object Notation", "correct": false},
+      {"id": 51, "answer_text": "JavaScript Online Notation", "correct": false},
+      {"id": 52, "answer_text": "JSON Object Notation", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "JavaScript da localStorage nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 53, "answer_text": "Browser storage", "correct": false},
+      {"id": 54, "answer_text": "Local data storage", "correct": false},
+      {"id": 55, "answer_text": "Web storage API", "correct": false},
+      {"id": 56, "answer_text": "Web storage for data", "correct": true}
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "JavaScript da 'this' kalit so'zi nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 57, "answer_text": "Current object", "correct": false},
+      {"id": 58, "answer_text": "Execution context", "correct": false},
+      {"id": 59, "answer_text": "Function context", "correct": false},
+      {"id": 60, "answer_text": "Current execution context", "correct": true}
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "JavaScript da arrow function nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 61, "answer_text": "() => {}", "correct": false},
+      {"id": 62, "answer_text": "Arrow syntax function", "correct": false},
+      {"id": 63, "answer_text": "Compact function syntax", "correct": false},
+      {"id": 64, "answer_text": "Shorter function syntax", "correct": true}
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "JavaScript da module nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 65, "answer_text": "Code organization", "correct": false},
+      {"id": 66, "answer_text": "File module", "correct": false},
+      {"id": 67, "answer_text": "ES6 module system", "correct": true},
+      {"id": 68, "answer_text": "Import/export system", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "JavaScript da destructuring nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 69, "answer_text": "Extract values from arrays/objects", "correct": true},
+      {"id": 70, "answer_text": "Destroy objects", "correct": false},
+      {"id": 71, "answer_text": "Decompose variables", "correct": false},
+      {"id": 72, "answer_text": "Break down data", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "JavaScript da spread operator nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 73, "answer_text": "...", "correct": false},
+      {"id": 74, "answer_text": "Expand iterables", "correct": false},
+      {"id": 75, "answer_text": "Copy arrays/objects", "correct": false},
+      {"id": 76, "answer_text": "Expand arrays/objects", "correct": true}
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "JavaScript da hoisting nima?",
+    "categoryId": 10,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 77, "answer_text": "Variable/function declaration move to top", "correct": true},
+      {"id": 78, "answer_text": "Lifting variables", "correct": false},
+      {"id": 79, "answer_text": "Declaration elevation", "correct": false},
+      {"id": 80, "answer_text": "Code reorganization", "correct": false}
+    ]
+  }
+]

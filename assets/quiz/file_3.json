@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "HTML qaysi so'zlar qisqartmasidan olingan?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 1, "answer_text": "HyperText Markup Language", "correct": true },
+      { "id": 2, "answer_text": "HighTech Modern Language", "correct": false },
+      { "id": 3, "answer_text": "HyperTransfer Markup Language", "correct": false },
+      { "id": 4, "answer_text": "Home Tool Markup Language", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "HTML hujjatini belgilovchi asosiy tag qaysi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 5, "answer_text": "<html>", "correct": false },
+      { "id": 6, "answer_text": "<web>", "correct": true },
+      { "id": 7, "answer_text": "<head>", "correct": false },
+      { "id": 8, "answer_text": "<body>", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "HTML'da sarlavha yaratish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 9, "answer_text": "<h1> dan <h6> gacha", "correct": false },
+      { "id": 10, "answer_text": "<head>", "correct": false },
+      { "id": 11, "answer_text": "<header>", "correct": true },
+      { "id": 12, "answer_text": "<title>", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "HTML'da paragraf yaratish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 6,
+    "answers": [
+      { "id": 13, "answer_text": "<p>", "correct": false },
+      { "id": 14, "answer_text": "<para>", "correct": false },
+      { "id": 15, "answer_text": "<text>", "correct": false },
+      { "id": 16, "answer_text": "<pg>", "correct": true }
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "HTML'da havola (link) yaratish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 17, "answer_text": "<a>", "correct": true },
+      { "id": 18, "answer_text": "<link>", "correct": false },
+      { "id": 19, "answer_text": "<href>", "correct": false },
+      { "id": 20, "answer_text": "<url>", "correct": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "HTML'da rasm qo'shish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 21, "answer_text": "<img>", "correct": false },
+      { "id": 22, "answer_text": "<image>", "correct": true },
+      { "id": 23, "answer_text": "<pic>", "correct": false },
+      { "id": 24, "answer_text": "<photo>", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "HTML'da ro'yxat yaratish uchun qaysi taglar ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 25, "answer_text": "<ul>, <ol>, <li>", "correct": false },
+      { "id": 26, "answer_text": "<list>, <item>", "correct": false },
+      { "id": 27, "answer_text": "<dl>, <dt>, <dd>", "correct": true },
+      { "id": 28, "answer_text": "<menu>, <option>", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "HTML'da jadval yaratish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 29, "answer_text": "<table>", "correct": false },
+      { "id": 30, "answer_text": "<grid>", "correct": true },
+      { "id": 31, "answer_text": "<tab>", "correct": false },
+      { "id": 32, "answer_text": "<chart>", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "HTML'da form yaratish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 33, "answer_text": "<form>", "correct": false },
+      { "id": 34, "answer_text": "<input>", "correct": false },
+      { "id": 35, "answer_text": "<fieldset>", "correct": true },
+      { "id": 36, "answer_text": "<submit>", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "HTML'da matn maydoni (input) yaratish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 37, "answer_text": "<input type='text'>", "correct": false },
+      { "id": 38, "answer_text": "<textfield>", "correct": false },
+      { "id": 39, "answer_text": "<textarea>", "correct": false },
+      { "id": 40, "answer_text": "<text>", "correct": true }
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "HTML'da tugma yaratish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 41, "answer_text": "<button>", "correct": true },
+      { "id": 42, "answer_text": "<btn>", "correct": false },
+      { "id": 43, "answer_text": "<submit>", "correct": false },
+      { "id": 44, "answer_text": "<click>", "correct": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "HTML'da video qo'shish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 45, "answer_text": "<video>", "correct": false },
+      { "id": 46, "answer_text": "<media>", "correct": true },
+      { "id": 47, "answer_text": "<movie>", "correct": false },
+      { "id": 48, "answer_text": "<mp4>", "correct": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "HTML'da audio qo'shish uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 49, "answer_text": "<audio>", "correct": false },
+      { "id": 50, "answer_text": "<sound>", "correct": false },
+      { "id": 51, "answer_text": "<music>", "correct": true },
+      { "id": 52, "answer_text": "<mp3>", "correct": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "HTML'da yangi oyna ochish uchun qaysi atribut ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 53, "answer_text": "target='_blank'", "correct": false },
+      { "id": 54, "answer_text": "window='new'", "correct": false },
+      { "id": 55, "answer_text": "open='new'", "correct": true },
+      { "id": 56, "answer_text": "href='new'", "correct": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "HTML'da rasmga alternativ matn qo'shish uchun qaysi atribut ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 57, "answer_text": "alt", "correct": false },
+      { "id": 58, "answer_text": "title", "correct": true },
+      { "id": 59, "answer_text": "text", "correct": false },
+      { "id": 60, "answer_text": "description", "correct": false }
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "HTML'da CSS faylini ulash uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 61, "answer_text": "<link>", "correct": false },
+      { "id": 62, "answer_text": "<style>", "correct": false },
+      { "id": 63, "answer_text": "<css>", "correct": false },
+      { "id": 64, "answer_text": "<import>", "correct": true }
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "HTML'da JavaScript faylini ulash uchun qaysi tag ishlatiladi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 65, "answer_text": "<script>", "correct": true },
+      { "id": 66, "answer_text": "<javascript>", "correct": false },
+      { "id": 67, "answer_text": "<js>", "correct": false },
+      { "id": 68, "answer_text": "<code>", "correct": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "HTML'da meta teglar qayerda joylashadi?",
+    "categoryId": 3,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 69, "answer_text": "<head> ichida", "correct": false },
+      { "id": 70, "answer_text": "<body> ichida", "correct": true },
+      { "id": 71, "answer_text": "<html> ichida", "correct": false },
+      { "id": 72, "answer_text": "<title> ichida", "correct": false }
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "HTML'da semantik tag nima?",
+    "categoryId": 3,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 73, "answer_text": "Ma'noga ega bo'lgan tag", "correct": false },
+      { "id": 74, "answer_text": "Rangga ega bo'lgan tag", "correct": false },
+      { "id": 75, "answer_text": "Havolaga ega bo'lgan tag", "correct": false },
+      { "id": 76, "answer_text": "Rasmga ega bo'lgan tag", "correct": true }
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "HTML5'da qaysi yangi semantik taglar mavjud?",
+    "categoryId": 3,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 77, "answer_text": "<header>, <footer>, <section>, <article>", "correct": false },
+      { "id": 78, "answer_text": "<top>, <bottom>, <part>, <text>", "correct": true },
+      { "id": 79, "answer_text": "<head>, <body>, <div>, <span>", "correct": false },
+      { "id": 80, "answer_text": "<nav>, <menu>, <list>, <table>", "correct": false }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+const String category = "Kategoriyalar";
+const String allCategory = "Barcha kategoriyalar";
+const String start = "Boshlash";
+const String all = "All";
+const String errorText ="Xatolik yuz berdi";
+const String quizExitSubtitle ="Haqiqatan ham o'yinni yakunlamoqchimisiz? Barcha natijalar saqlanmaydi.";
+const String dialogNoButton = "Yo'q";
+const String dialogYesButton ="Ha, chiqish";
+const String quizExitTitle ="Chiqish";
+const String quizLoading = "Savollar yuklanmoqda...";

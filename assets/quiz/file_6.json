@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "React qaysi kompaniya tomonidan yaratilgan?",
+    "categoryId": 6,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 1, "answer_text": "Facebook", "correct": true},
+      {"id": 2, "answer_text": "Google", "correct": false},
+      {"id": 3, "answer_text": "Microsoft", "correct": false},
+      {"id": 4, "answer_text": "Twitter", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "React'da komponent qanday yaratiladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 5, "answer_text": "function Component() {}", "correct": false},
+      {"id": 6, "answer_text": "class Component {}", "correct": false},
+      {"id": 7, "answer_text": "const Component = () => {}", "correct": false},
+      {"id": 8, "answer_text": "function MyComponent() {}", "correct": true}
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "React'da JSX nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 9, "answer_text": "JavaScript XML", "correct": true},
+      {"id": 10, "answer_text": "Java Syntax Extension", "correct": false},
+      {"id": 11, "answer_text": "JavaScript Extension", "correct": false},
+      {"id": 12, "answer_text": "JS XML", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "React'da state nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 13, "answer_text": "Komponentning holati", "correct": false},
+      {"id": 14, "answer_text": "Ma'lumotlar saqlash", "correct": false},
+      {"id": 15, "answer_text": "O'zgaruvchan ma'lumot", "correct": false},
+      {"id": 16, "answer_text": "Komponent ma'lumoti", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "React'da props nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 17, "answer_text": "Komponentga o'tkaziladigan ma'lumot", "correct": true},
+      {"id": 18, "answer_text": "Funksiya parametri", "correct": false},
+      {"id": 19, "answer_text": "Global o'zgaruvchi", "correct": false},
+      {"id": 20, "answer_text": "Statik ma'lumot", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "React'da hook nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 21, "answer_text": "Funksiya komponentlarida state ishlatish", "correct": false},
+      {"id": 22, "answer_text": "Lifecycle metodlari", "correct": false},
+      {"id": 23, "answer_text": "Maxsus funksiyalar", "correct": false},
+      {"id": 24, "answer_text": "React xususiyatlariga ulanish", "correct": true}
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "React'da useState hook qanday ishlatiladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 25, "answer_text": "const [state, setState] = useState()", "correct": false},
+      {"id": 26, "answer_text": "const [value, setValue] = useState(initial)", "correct": true},
+      {"id": 27, "answer_text": "useState(value, setValue)", "correct": false},
+      {"id": 28, "answer_text": "const state = useState()", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "React'da useEffect hook nima uchun ishlatiladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 29, "answer_text": "Yon ta'sirlarni bajarish", "correct": true},
+      {"id": 30, "answer_text": "State o'zgartirish", "correct": false},
+      {"id": 31, "answer_text": "Komponent yuklash", "correct": false},
+      {"id": 32, "answer_text": "Ma'lumotlarni saqlash", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "React'da virtual DOM nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 33, "answer_text": "Haqiqiy DOM ning nusxasi", "correct": false},
+      {"id": 34, "answer_text": "JavaScript obyekti", "correct": false},
+      {"id": 35, "answer_text": "Xotira dagi DOM", "correct": false},
+      {"id": 36, "answer_text": "Lightweight DOM ko'rinishi", "correct": true}
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "React'da komponent lifecycle qanday?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 37, "answer_text": "Mount, Update, Unmount", "correct": true},
+      {"id": 38, "answer_text": "Create, Render, Destroy", "correct": false},
+      {"id": 39, "answer_text": "Init, Update, Delete", "correct": false},
+      {"id": 40, "answer_text": "Start, Change, End", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "React'da key prop nima uchun kerak?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 41, "answer_text": "Elementlarni identifikatsiya qilish", "correct": false},
+      {"id": 42, "answer_text": "Renderni optimallashtirish", "correct": false},
+      {"id": 43, "answer_text": "List elementlarini kuzatish", "correct": false},
+      {"id": 44, "answer_text": "React ga elementni tanib olish", "correct": true}
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "React'da conditional rendering qanday amalga oshiriladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 45, "answer_text": "if-else operatori bilan", "correct": false},
+      {"id": 46, "answer_text": "Ternary operator bilan", "correct": false},
+      {"id": 47, "answer_text": "&& operatori bilan", "correct": false},
+      {"id": 48, "answer_text": "JSX da shartli mantiq", "correct": true}
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "React'da event handling qanday amalga oshiriladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 49, "answer_text": "onClick={handleClick}", "correct": true},
+      {"id": 50, "answer_text": "onclick='handleClick()'", "correct": false},
+      {"id": 51, "answer_text": "click={handleClick}", "correct": false},
+      {"id": 52, "answer_text": "@click='handleClick'", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "React'da form handling qanday amalga oshiriladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 53, "answer_text": "Controlled component", "correct": false},
+      {"id": 54, "answer_text": "Uncontrolled component", "correct": false},
+      {"id": 55, "answer_text": "State orqali boshqarish", "correct": false},
+      {"id": 56, "answer_text": "Value va onChange orqali", "correct": true}
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "React'da context nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 57, "answer_text": "Global state boshqarish", "correct": true},
+      {"id": 58, "answer_text": "Komponentlar orasida ma'lumot uzatish", "correct": false},
+      {"id": 59, "answer_text": "Local storage", "correct": false},
+      {"id": 60, "answer_text": "Theme boshqarish", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "React'da routing qaysi kutubxona bilan amalga oshiriladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 61, "answer_text": "React Router", "correct": false},
+      {"id": 62, "answer_text": "React Navigation", "correct": false},
+      {"id": 63, "answer_text": "React Route", "correct": false},
+      {"id": 64, "answer_text": "React-Router-DOM", "correct": true}
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "React'da HOC (Higher-Order Component) nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 65, "answer_text": "Komponentni qayta ishlatish", "correct": false},
+      {"id": 66, "answer_text": "Komponentni o'rab oluvchi funksiya", "correct": true},
+      {"id": 67, "answer_text": "Yuqori darajali komponent", "correct": false},
+      {"id": 68, "answer_text": "Asosiy komponent", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "React'da custom hook qanday yaratiladi?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 69, "answer_text": "use bilan boshlangan funksiya", "correct": true},
+      {"id": 70, "answer_text": "hook kalit so'zi bilan", "correct": false},
+      {"id": 71, "answer_text": "customHook funksiyasi", "correct": false},
+      {"id": 72, "answer_text": "createHook() bilan", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "React'da performance ni qanday optimallashtirish mumkin?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 73, "answer_text": "React.memo", "correct": false},
+      {"id": 74, "answer_text": "useMemo", "correct": false},
+      {"id": 75, "answer_text": "useCallback", "correct": false},
+      {"id": 76, "answer_text": "Memoization va lazy loading", "correct": true}
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "React'da error boundary nima?",
+    "categoryId": 6,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 77, "answer_text": "Xatolarni ushlovchi komponent", "correct": true},
+      {"id": 78, "answer_text": "Xato chegarasi", "correct": false},
+      {"id": 79, "answer_text": "Debug qilish vositasi", "correct": false},
+      {"id": 80, "answer_text": "Error handling hook", "correct": false}
+    ]
+  }
+]

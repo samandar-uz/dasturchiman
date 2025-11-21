@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "Java'da qaysi kalit so'z klassni meros olish uchun ishlatiladi?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 1, "answer_text": "implements", "correct": true },
+      { "id": 2, "answer_text": "extends", "correct": false },
+      { "id": 3, "answer_text": "inherits", "correct": false },
+      { "id": 4, "answer_text": "super", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "Java'da String obyektlarni solishtirish uchun qaysi metod ishlatiladi?",
+    "categoryId": 1,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 5, "answer_text": "==", "correct": false },
+      { "id": 6, "answer_text": "equals()", "correct": false },
+      { "id": 7, "answer_text": "compare()", "correct": true },
+      { "id": 8, "answer_text": "===", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "Java'da massiv yaratish qaysi sintaksis to'g'ri?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 9, "answer_text": "int arr[] = new int[5];", "correct": false },
+      { "id": 10, "answer_text": "int arr = new array[5];", "correct": false },
+      { "id": 11, "answer_text": "array int = new int[5];", "correct": false },
+      { "id": 12, "answer_text": "int[] arr = new array(5);", "correct": true }
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "Java'da interface da metodlar qanday e'lon qilinadi?",
+    "categoryId": 1,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 13, "answer_text": "private void method();", "correct": true },
+      { "id": 14, "answer_text": "public abstract void method();", "correct": false },
+      { "id": 15, "answer_text": "protected void method();", "correct": false },
+      { "id": 16, "answer_text": "static void method();", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "Java'da try-catch bloki qanday vazifani bajaradi?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 17, "answer_text": "Ma'lumotlarni saqlash", "correct": false },
+      { "id": 18, "answer_text": "Xatoliklarni boshqarish", "correct": false },
+      { "id": 19, "answer_text": "Kodni optimallashtirish", "correct": true },
+      { "id": 20, "answer_text": "Xotirani boshqarish", "correct": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "Java'da qaysi toifadagi o'zgaruvchilar stack xotirasida saqlanadi?",
+    "categoryId": 1,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 21, "answer_text": "Static o'zgaruvchilar", "correct": false },
+      { "id": 22, "answer_text": "Lokal o'zgaruvchilar", "correct": true },
+      { "id": 23, "answer_text": "Instance o'zgaruvchilar", "correct": false },
+      { "id": 24, "answer_text": "Global o'zgaruvchilar", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "Java'da final kalit so'zi nimani anglatadi?",
+    "categoryId": 1,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 25, "answer_text": "O'zgartirish mumkin", "correct": false },
+      { "id": 26, "answer_text": "O'zgartirib bo'lmaydigan", "correct": false },
+      { "id": 27, "answer_text": "Dinamik", "correct": true },
+      { "id": 28, "answer_text": "Statik", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "Java'da HashMap qanday ma'lumotlar strukturasi?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 29, "answer_text": "Ro'yxat", "correct": false },
+      { "id": 30, "answer_text": "To'plam", "correct": true },
+      { "id": 31, "answer_text": "Kalit-qiymat juftligi", "correct": false },
+      { "id": 32, "answer_text": "Navbat", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "Java'da polimorfizm nima?",
+    "categoryId": 1,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 33, "answer_text": "Bir xil metodni turli usullarda bajarish", "correct": false },
+      { "id": 34, "answer_text": "Ma'lumotlarni yashirish", "correct": true },
+      { "id": 35, "answer_text": "Kodni qayta ishlatish", "correct": false },
+      { "id": 36, "answer_text": "Xotirani boshqarish", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "Java'da garbage collector nima vazifani bajaradi?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 37, "answer_text": "Xotirani tozalash", "correct": false },
+      { "id": 38, "answer_text": "Kodni kompilyatsiya qilish", "correct": true },
+      { "id": 39, "answer_text": "Dasturni ishga tushirish", "correct": false },
+      { "id": 40, "answer_text": "Xatoliklarni tuzatish", "correct": false }
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "Java'da abstract klass va interface o'rtasidagi farq?",
+    "categoryId": 1,
+    "time_limit_seconds": 15,
+    "answers": [
+      { "id": 41, "answer_text": "Abstract klassda konstruktor bo'ladi, interfaceda yo'q", "correct": true },
+      { "id": 42, "answer_text": "Interface da konstruktor bo'ladi, abstract klassda yo'q", "correct": false },
+      { "id": 43, "answer_text": "Farqi yo'q", "correct": false },
+      { "id": 44, "answer_text": "Abstract klass faqat bitta metodga ega bo'ladi", "correct": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "Java'da synchronized kalit so'zi nima uchun ishlatiladi?",
+    "categoryId": 1,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 45, "answer_text": "Multithreading da race condition dan himoya qilish", "correct": false },
+      { "id": 46, "answer_text": "Kodni tezlashtirish", "correct": true },
+      { "id": 47, "answer_text": "Xotirani tejash", "correct": false },
+      { "id": 48, "answer_text": "Ma'lumotlarni shifrlash", "correct": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "Java'da Exception va Error o'rtasidagi farq?",
+    "categoryId": 1,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 49, "answer_text": "Exception boshqariladi, Error boshqarilmaydi", "correct": false },
+      { "id": 50, "answer_text": "Error boshqariladi, Exception boshqarilmaydi", "correct": true },
+      { "id": 51, "answer_text": "Farqi yo'q", "correct": false },
+      { "id": 52, "answer_text": "Exception faqat runtime da yuz beradi", "correct": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "Java'da static metod nimaga murojaat qiladi?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 53, "answer_text": "Faqat static o'zgaruvchilar va metodlarga", "correct": false },
+      { "id": 54, "answer_text": "Faqat instance o'zgaruvchilarga", "correct": false },
+      { "id": 55, "answer_text": "Barcha o'zgaruvchilarga", "correct": true },
+      { "id": 56, "answer_text": "Global o'zgaruvchilarga", "correct": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "Java'da LinkedList va ArrayList o'rtasidagi farq?",
+    "categoryId": 1,
+    "time_limit_seconds": 12,
+    "answers": [
+      { "id": 57, "answer_text": "LinkedList tezroq qo'shish/o'chirish, ArrayList tezroq indeksatsiya", "correct": false },
+      { "id": 58, "answer_text": "ArrayList har doim tezroq", "correct": true },
+      { "id": 59, "answer_text": "LinkedList har doim tezroq", "correct": false },
+      { "id": 60, "answer_text": "Farqi yo'q", "correct": false }
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "Java'da @Override annotatsiyasi nima?",
+    "categoryId": 1,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 61, "answer_text": "Metodni qayta yozishni ko'rsatadi", "correct": true },
+      { "id": 62, "answer_text": "Metodni o'chirishni ko'rsatadi", "correct": false },
+      { "id": 63, "answer_text": "Metodni yangilashni ko'rsatadi", "correct": false },
+      { "id": 64, "answer_text": "Metodni shifrlashni ko'rsatadi", "correct": false }
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "Java'da constructor nima?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 65, "answer_text": "Obyekt yaratishda chaqiriladigan maxsus metod", "correct": false },
+      { "id": 66, "answer_text": "Dasturni to'xtatish metodi", "correct": false },
+      { "id": 67, "answer_text": "Ma'lumotlarni saqlash metodi", "correct": true },
+      { "id": 68, "answer_text": "Xotirani tozalash metodi", "correct": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "Java'da package nima?",
+    "categoryId": 1,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 69, "answer_text": "Klasslarni guruhlash usuli", "correct": true },
+      { "id": 70, "answer_text": "Ma'lumotlarni qadoqlash usuli", "correct": false },
+      { "id": 71, "answer_text": "Kodni shifrlash usuli", "correct": false },
+      { "id": 72, "answer_text": "Dasturni ishga tushirish usuli", "correct": false }
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "Java'da 'this' kalit so'zi nima?",
+    "categoryId": 1,
+    "time_limit_seconds": 8,
+    "answers": [
+      { "id": 73, "answer_text": "Joriy obyektga murojaat", "correct": false },
+      { "id": 74, "answer_text": "Super klassga murojaat", "correct": true },
+      { "id": 75, "answer_text": "Statik metodga murojaat", "correct": false },
+      { "id": 76, "answer_text": "Global o'zgaruvchiga murojaat", "correct": false }
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "Java'da JVM nima?",
+    "categoryId": 1,
+    "time_limit_seconds": 10,
+    "answers": [
+      { "id": 77, "answer_text": "Java Virtual Machine - Java virtual mashinasi", "correct": false },
+      { "id": 78, "answer_text": "Java Variable Manager", "correct": true },
+      { "id": 79, "answer_text": "Java Version Manager", "correct": false },
+      { "id": 80, "answer_text": "Java Visual Module", "correct": false }
+    ]
+  }
+]

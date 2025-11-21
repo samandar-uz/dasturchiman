@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question_text": "C# qaysi kompaniya tomonidan yaratilgan?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 1, "answer_text": "Microsoft", "correct": true},
+      {"id": 2, "answer_text": "Google", "correct": false},
+      {"id": 3, "answer_text": "Apple", "correct": false},
+      {"id": 4, "answer_text": "Oracle", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question_text": "C# qaysi platforma uchun mo'ljallangan?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 5, "answer_text": ".NET", "correct": false},
+      {"id": 6, "answer_text": "Java Virtual Machine", "correct": false},
+      {"id": 7, "answer_text": "Windows", "correct": false},
+      {"id": 8, "answer_text": ".NET Framework", "correct": true}
+    ]
+  },
+  {
+    "id": 3,
+    "question_text": "C# da asosiy dastur qanday boshlanadi?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 9, "answer_text": "static void Main()", "correct": true},
+      {"id": 10, "answer_text": "public static void main()", "correct": false},
+      {"id": 11, "answer_text": "function main()", "correct": false},
+      {"id": 12, "answer_text": "void Start()", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question_text": "C# da klass qanday e'lon qilinadi?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 13, "answer_text": "class Nom {}", "correct": false},
+      {"id": 14, "answer_text": "public class Nom {}", "correct": false},
+      {"id": 15, "answer_text": "class ClassName {}", "correct": false},
+      {"id": 16, "answer_text": "public class MyClass {}", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question_text": "C# da o'zgaruvchi qanday e'lon qilinadi?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 17, "answer_text": "int x;", "correct": false},
+      {"id": 18, "answer_text": "var x;", "correct": false},
+      {"id": 19, "answer_text": "string name;", "correct": false},
+      {"id": 20, "answer_text": "dataType variableName;", "correct": true}
+    ]
+  },
+  {
+    "id": 6,
+    "question_text": "C# da massiv qanday yaratiladi?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 21, "answer_text": "int[] arr = new int[5];", "correct": true},
+      {"id": 22, "answer_text": "int arr[5];", "correct": false},
+      {"id": 23, "answer_text": "array int = new int[5];", "correct": false},
+      {"id": 24, "answer_text": "List<int> arr = new List<int>();", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "question_text": "C# da List qanday yaratiladi?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 25, "answer_text": "List<int> list = new List<int>();", "correct": false},
+      {"id": 26, "answer_text": "var list = new List<int>();", "correct": false},
+      {"id": 27, "answer_text": "List<int> numbers = new List<int>();", "correct": true},
+      {"id": 28, "answer_text": "ArrayList list = new ArrayList();", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question_text": "C# da funksiya qanday e'lon qilinadi?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 29, "answer_text": "void FunctionName() {}", "correct": false},
+      {"id": 30, "answer_text": "public void MyMethod() {}", "correct": true},
+      {"id": 31, "answer_text": "function myFunc() {}", "correct": false},
+      {"id": 32, "answer_text": "def my_function():", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question_text": "C# da meros olish qanday amalga oshiriladi?",
+    "categoryId": 8,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 33, "answer_text": "class Child : Parent", "correct": true},
+      {"id": 34, "answer_text": "class Child extends Parent", "correct": false},
+      {"id": 35, "answer_text": "class Child inherits Parent", "correct": false},
+      {"id": 36, "answer_text": "class Child -> Parent", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question_text": "C# da interface qanday e'lon qilinadi?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 37, "answer_text": "interface INom {}", "correct": false},
+      {"id": 38, "answer_text": "public interface IMyInterface {}", "correct": true},
+      {"id": 39, "answer_text": "interface MyInterface {}", "correct": false},
+      {"id": 40, "answer_text": "public interface Interface {}", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question_text": "C# da property qanday e'lon qilinadi?",
+    "categoryId": 8,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 41, "answer_text": "public string Name { get; set; }", "correct": true},
+      {"id": 42, "answer_text": "string name { get; set; }", "correct": false},
+      {"id": 43, "answer_text": "property string Name;", "correct": false},
+      {"id": 44, "answer_text": "var Name { get; set; }", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question_text": "C# da LINQ nima?",
+    "categoryId": 8,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 45, "answer_text": "Language Integrated Query", "correct": true},
+      {"id": 46, "answer_text": "Language Internal Query", "correct": false},
+      {"id": 47, "answer_text": "LINQ Integrated Query", "correct": false},
+      {"id": 48, "answer_text": "Linguistic Query", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question_text": "C# da exception handling qanday amalga oshiriladi?",
+    "categoryId": 8,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 49, "answer_text": "try-catch-finally", "correct": true},
+      {"id": 50, "answer_text": "try-except-finally", "correct": false},
+      {"id": 51, "answer_text": "catch-try-finally", "correct": false},
+      {"id": 52, "answer_text": "handle-try-catch", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question_text": "C# da delegate nima?",
+    "categoryId": 8,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 53, "answer_text": "Funksiya ko'rsatkichi", "correct": false},
+      {"id": 54, "answer_text": "Method reference", "correct": false},
+      {"id": 55, "answer_text": "Function pointer", "correct": false},
+      {"id": 56, "answer_text": "Type-safe function pointer", "correct": true}
+    ]
+  },
+  {
+    "id": 15,
+    "question_text": "C# da event qanday e'lon qilinadi?",
+    "categoryId": 8,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 57, "answer_text": "public event EventHandler MyEvent;", "correct": true},
+      {"id": 58, "answer_text": "event MyEvent;", "correct": false},
+      {"id": 59, "answer_text": "public event MyEvent;", "correct": false},
+      {"id": 60, "answer_text": "event EventHandler MyEvent;", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question_text": "C# da async/await qanday ishlatiladi?",
+    "categoryId": 8,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 61, "answer_text": "async Task MyMethod() { await ... }", "correct": true},
+      {"id": 62, "answer_text": "async void MyMethod() { await ... }", "correct": false},
+      {"id": 63, "answer_text": "Task async MyMethod() { await ... }", "correct": false},
+      {"id": 64, "answer_text": "await async MyMethod()", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question_text": "C# da namespace nima?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 65, "answer_text": "Kodni guruhlash", "correct": false},
+      {"id": 66, "answer_text": "Logical grouping", "correct": false},
+      {"id": 67, "answer_text": "Code organization", "correct": false},
+      {"id": 68, "answer_text": "Logical code organization", "correct": true}
+    ]
+  },
+  {
+    "id": 18,
+    "question_text": "C# da struct va class o'rtasidagi farq?",
+    "categoryId": 8,
+    "time_limit_seconds": 12,
+    "answers": [
+      {"id": 69, "answer_text": "Struct value type, class reference type", "correct": true},
+      {"id": 70, "answer_text": "Struct reference type, class value type", "correct": false},
+      {"id": 71, "answer_text": "Farqi yo'q", "correct": false},
+      {"id": 72, "answer_text": "Struct light version of class", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question_text": "C# da using direktivasi nima?",
+    "categoryId": 8,
+    "time_limit_seconds": 8,
+    "answers": [
+      {"id": 73, "answer_text": "Namespace import", "correct": false},
+      {"id": 74, "answer_text": "Library include", "correct": false},
+      {"id": 75, "answer_text": "Resource management", "correct": false},
+      {"id": 76, "answer_text": "Namespace declaration", "correct": true}
+    ]
+  },
+  {
+    "id": 20,
+    "question_text": "C# da attribute nima?",
+    "categoryId": 8,
+    "time_limit_seconds": 10,
+    "answers": [
+      {"id": 77, "answer_text": "Metadata declaration", "correct": true},
+      {"id": 78, "answer_text": "Property declaration", "correct": false},
+      {"id": 79, "answer_text": "Class attribute", "correct": false},
+      {"id": 80, "answer_text": "Field attribute", "correct": false}
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+name: quizapp
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  package_info_plus: ^8.0.0
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.2
+  shared_preferences: ^2.2.2
+  audioplayers: ^6.5.1
+
+
+
+
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo.png"
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  dependency_validator: ^5.0.3
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+  - assets/logo.png
+  - assets/images/onboarding/
+  - assets/images/quiz/
+  - assets/images/banners/
+  - assets/images/service/
+  - assets/images/dialog/
+  - assets/fonts/
+  - assets/quiz/
+  - assets/audio/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
